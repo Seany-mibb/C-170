@@ -25,7 +25,7 @@ AFRAME.registerComponent("create-markers", {
       model.setAttribute("position", dish.model_geometry.position);
       model.setAttribute("rotation", dish.model_geometry.rotation);
       model.setAttribute("scale", dish.model_geometry.scale);
-      model.setAttribute("gltf-model", `url(${dish.model})`);
+      model.setAttribute("gltf-model", `url(${dish.model_url})`);
       model.setAttribute("gesture-handler", {});
       marker.appendChild(model);
 
