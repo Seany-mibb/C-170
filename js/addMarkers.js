@@ -73,7 +73,7 @@ AFRAME.registerComponent("create-markers", {
         color:"black",
         width:2,
         align:"center",
-        value:`${dish.ingredients.join("\n\n")}`
+        value:`${dish.Ingredients.join("\n\n")}`
       });
       mainPlane.appendChild(ingredients);
     });
